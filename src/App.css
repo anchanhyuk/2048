@@ -1,0 +1,56 @@
+button {
+  background-color: skyblue;
+  border: 0;
+  border-radius: 15px;
+}
+
+.App {
+  justify-content: center;
+  display: grid;
+}
+.App > button {
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.game-settings {
+  justify-content: center;
+  display: flex;
+  height: 40px;
+  margin-bottom: 20px;;
+}
+.game-settings p {
+  margin: 10px;
+}
+
+.game-settings button {
+  width: 100px;
+}
+.tileContainer{
+  background-color: rgb(180, 180, 180);
+  padding: 5px;
+  border-radius: 5px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.tileContainer > div {
+  vertical-align: middle;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.row div {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(231, 231, 231);
+  margin: 5px;
+  border-radius: 5px;
+}
